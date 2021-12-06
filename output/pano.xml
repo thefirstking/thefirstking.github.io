@@ -82,7 +82,11 @@
       <hotspot pan="-207.55" url="{node3}" title="Move Here" description="" skinid="ht_node" tilt="10.85" id="Point02" target="112.2/-5.2/70.0"/>
       <hotspot pan="-326.86" url="images/TICADigitalSlideFile-0521 packrat.jpg" title="" description="" skinid="ht_image" tilt="-23.33" id="Point03" target=""/>
     </hotspots>
-    <media/>
+    <media>
+      <video height="720" clickmode="2" loop="1" tiltsize="10.000" nodechangekeep="0" stretch="1.000" fov="24.000" startmutedmobile="0" pan="-225.460" rotz="-5.000" field="90.000" tilt="27.810" mode="3" id="Element01" width="1280" rotx="0.000" roty="4.000" ambientlevel="0.000" level="0.600" pansize="10.000" handcursor="0">
+        <source url="media/4_BigRoom_Frost.mp4"/>
+      </video>
+    </media>
     <transition blendtime="1" softedge="0" blendcolor="0x000000" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomin="0" type="crossdissolve" zoomspeed="2" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboard="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" rubberband="0"/>
