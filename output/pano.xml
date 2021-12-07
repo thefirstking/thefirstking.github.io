@@ -1,237 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="18043" start="node2" appversion="6.1.11">
+<tour start="node2" appversion="6.1.11" apprev="18043">
   <panorama id="node2">
-    <input overlap="1" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510" width="1440" height="1440">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" width="1440" levelbias="0.400" height="1440" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" width="1440" preload="0" height="1440"/>
+      <level predecode="0" width="720" preload="0" height="720"/>
+      <level predecode="1" width="360" preload="1" height="360"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="-67.7152">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start tilt="0" fov="70" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata latitude="" heading="-67.7152" author="" nodeid="node2" title="DCIM\100GOPRO\GS__0039.JPG" description="" comment="" longitude="" datetime="9/22/2021 11:23 AM" source="" customnodeid="" tags="Stereo|Timpanogos Cave Panos" copyright="" info="">
-      <mapcoords mapid="FloorPlan01" y="-0.286331" x_floorplan_percent="79.7782" x="1.28403" y_floorplan_percent="67.4757"/>
+    <userdata description="" author="" info="" source="" latitude="" longitude="" title="DCIM\100GOPRO\GS__0039.JPG" heading="-67.7152" copyright="" nodeid="node2" datetime="9/22/2021 11:23 AM" comment="" tags="Stereo|Timpanogos Cave Panos" customnodeid="">
+      <mapcoords x_floorplan_percent="79.7782" mapid="FloorPlan01" x="1.28403" y="-0.286331" y_floorplan_percent="67.4757"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" background="1" wordwrap="1" enabled="1" textcolor="0x000000" borderradius="1" backgroundcolor="0xffffff" textalpha="1" borderalpha="1" backgroundalpha="1" width="180" height="20" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot pan="-12.28" url="{node3}" title="Move Here" description="" skinid="ht_node" tilt="-7.81" id="Point01" target=""/>
-      <hotspot pan="-320.31" url="images/Limestone.png" title="" description="" skinid="ht_image" tilt="27.17" id="Point02" target=""/>
-    </hotspots>
-    <media/>
-    <transition blendtime="1" softedge="0" blendcolor="0x000000" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomin="0" type="crossdissolve" zoomspeed="2" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboard="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" rubberband="0"/>
-  </panorama>
-  <panorama id="node3">
-    <input overlap="1" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510" width="1440" height="1440">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view fovmode="0" pannorth="-90.0001">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270" fovfisheye="360"/>
-    </view>
-    <userdata latitude="" heading="-90.0001" author="" nodeid="node3" title="DCIM\100GOPRO\GS__0040.JPG" description="" comment="" longitude="" datetime="9/22/2021 11:26 AM" source="" customnodeid="" tags="Timpanogos Cave Panos" copyright="" info="">
-      <mapcoords mapid="FloorPlan01" y="-0.315857" x_floorplan_percent="74.2747" x="1.19545" y_floorplan_percent="74.4337"/>
-    </userdata>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" background="1" wordwrap="1" enabled="1" textcolor="0x000000" borderradius="1" backgroundcolor="0xffffff" textalpha="1" borderalpha="1" backgroundalpha="1" width="180" height="20" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot pan="-163.1" url="{node2}" title="Move Here" description="" skinid="ht_node" tilt="6.65" id="Point02" target="131.2/-6.3/70.0"/>
-      <hotspot pan="-50.19" url="{node1}" title="Move Here" description="" skinid="ht_node" tilt="1.53" id="Point03" target="0.6/4.8/70.0"/>
-      <hotspot pan="-135.8" url="images/Timp_pop_stalagtite.jpg" title="Stalagtite" description="" skinid="ht_image" tilt="20.23" id="Stalagtite" target=""/>
-      <hotspot pan="-344.84" url="images/Timp_pop_water.jpg" title="Cave Pool" description="" skinid="ht_image" tilt="-18.41" id="Cave Pool" target=""/>
-      <hotspot pan="-120.49" url="images/column1.jpg" title="" description="" skinid="ht_image" tilt="16.18" id="Point01" target=""/>
-      <hotspot pan="-27.13" url="images/Timpanogos Fault Line - 01 - small.jpg" title="" description="" skinid="ht_image" tilt="-12.93" id="Point04" target=""/>
-    </hotspots>
-    <media/>
-    <transition blendtime="1" softedge="0" blendcolor="0x000000" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomin="0" type="crossdissolve" zoomspeed="2" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboard="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" rubberband="0"/>
-  </panorama>
-  <panorama id="node1">
-    <input overlap="1" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510" width="1440" height="1440">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view fovmode="0" pannorth="-108.463">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270" fovfisheye="360"/>
-    </view>
-    <userdata latitude="" heading="-108.463" author="" nodeid="node1" title="DCIM\100GOPRO\GS__0041.JPG" description="" comment="" longitude="" datetime="9/22/21 11:35 AM" source="" customnodeid="" tags="Timpanogos Cave Panos" copyright="" info="">
-      <mapcoords mapid="FloorPlan01" y="-0.315857" x_floorplan_percent="53.8823" x="0.867233" y_floorplan_percent="74.4337"/>
-    </userdata>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" background="1" wordwrap="1" enabled="1" textcolor="0x000000" borderradius="1" backgroundcolor="0xffffff" textalpha="1" borderalpha="1" backgroundalpha="1" width="180" height="20" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot pan="-272.96" url="{node4}" title="Move Here" description="" skinid="ht_node" tilt="25.66" id="Point04" target=""/>
-      <hotspot pan="-5.59" url="{node5}" title="Move Here" description="" skinid="ht_node" tilt="1.65" id="Point01" target="180.0/12.6/70.0"/>
-      <hotspot pan="-207.55" url="{node3}" title="Move Here" description="" skinid="ht_node" tilt="10.85" id="Point02" target="112.2/-5.2/70.0"/>
-      <hotspot pan="-326.86" url="images/TICADigitalSlideFile-0521 packrat.jpg" title="" description="" skinid="ht_image" tilt="-23.33" id="Point03" target=""/>
+      <label textalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" textcolor="0x000000" background="1" borderalpha="1" width="180" borderradius="1" height="20" backgroundcolor="0xffffff" border="1" bordercolor="0x000000"/>
+      <polystyle mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" tilt="-7.81" description="" target="" id="Point01" pan="-12.28" title="Move Here" url="{node3}"/>
+      <hotspot skinid="ht_image" tilt="27.17" description="" target="" id="Point02" pan="-320.31" title="" url="images/Limestone.png"/>
     </hotspots>
     <media>
-      <video height="720" clickmode="2" loop="1" tiltsize="10.000" nodechangekeep="0" stretch="1.000" fov="24.000" startmutedmobile="0" pan="-225.460" rotz="-5.000" field="90.000" tilt="27.810" mode="3" id="Element01" width="1280" rotx="0.000" roty="4.000" ambientlevel="0.000" level="0.600" pansize="10.000" handcursor="0">
+      <sound tilt="8.670" mode="3" level="1.000" loop="0" startmutedmobile="0" id="Element01" pan="-342.290" tiltsize="10.000" pansize="10.000" ambientlevel="0.200" nodechangekeep="0" field="90.000">
+        <source url="media/2021-12-06 23-29-26.mp3"/>
+      </sound>
+    </media>
+    <transition zoomafteroutfov="20" blendcolor="0x000000" enabled="1" softedge="0" zoomfov="20" zoomin="0" zoomafterinfov="90" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedwheel="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelingroll="0" width="1440" levelbias="0.400" height="1440" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" width="1440" preload="0" height="1440"/>
+      <level predecode="0" width="720" preload="0" height="720"/>
+      <level predecode="1" width="360" preload="1" height="360"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-90.0001">
+      <start tilt="0" fov="70" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
+    </view>
+    <userdata description="" author="" info="" source="" latitude="" longitude="" title="DCIM\100GOPRO\GS__0040.JPG" heading="-90.0001" copyright="" nodeid="node3" datetime="9/22/2021 11:26 AM" comment="" tags="Timpanogos Cave Panos" customnodeid="">
+      <mapcoords x_floorplan_percent="74.2747" mapid="FloorPlan01" x="1.19545" y="-0.315857" y_floorplan_percent="74.4337"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" textcolor="0x000000" background="1" borderalpha="1" width="180" borderradius="1" height="20" backgroundcolor="0xffffff" border="1" bordercolor="0x000000"/>
+      <polystyle mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" tilt="6.65" description="" target="131.2/-6.3/70.0" id="Point02" pan="-163.1" title="Move Here" url="{node2}"/>
+      <hotspot skinid="ht_node" tilt="1.53" description="" target="0.6/4.8/70.0" id="Point03" pan="-50.19" title="Move Here" url="{node1}"/>
+      <hotspot skinid="ht_image" tilt="20.23" description="" target="" id="Stalagtite" pan="-135.8" title="Stalagtite" url="images/Timp_pop_stalagtite.jpg"/>
+      <hotspot skinid="ht_image" tilt="-18.41" description="" target="" id="Cave Pool" pan="-344.84" title="Cave Pool" url="images/Timp_pop_water.jpg"/>
+      <hotspot skinid="ht_image" tilt="16.18" description="" target="" id="Point01" pan="-120.49" title="" url="images/column1.jpg"/>
+      <hotspot skinid="ht_image" tilt="-12.93" description="" target="" id="Point04" pan="-27.13" title="" url="images/Timpanogos Fault Line - 01 - small.jpg"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" blendcolor="0x000000" enabled="1" softedge="0" zoomfov="20" zoomin="0" zoomafterinfov="90" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedwheel="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node1">
+    <input levelingroll="0" width="1440" levelbias="0.400" height="1440" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" width="1440" preload="0" height="1440"/>
+      <level predecode="0" width="720" preload="0" height="720"/>
+      <level predecode="1" width="360" preload="1" height="360"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-108.463">
+      <start tilt="0" fov="70" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
+    </view>
+    <userdata description="" author="" info="" source="" latitude="" longitude="" title="DCIM\100GOPRO\GS__0041.JPG" heading="-108.463" copyright="" nodeid="node1" datetime="9/22/21 11:35 AM" comment="" tags="Timpanogos Cave Panos" customnodeid="">
+      <mapcoords x_floorplan_percent="53.8823" mapid="FloorPlan01" x="0.867233" y="-0.315857" y_floorplan_percent="74.4337"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" textcolor="0x000000" background="1" borderalpha="1" width="180" borderradius="1" height="20" backgroundcolor="0xffffff" border="1" bordercolor="0x000000"/>
+      <polystyle mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" tilt="25.66" description="" target="" id="Point04" pan="-272.96" title="Move Here" url="{node4}"/>
+      <hotspot skinid="ht_node" tilt="1.65" description="" target="180.0/12.6/70.0" id="Point01" pan="-5.59" title="Move Here" url="{node5}"/>
+      <hotspot skinid="ht_node" tilt="10.85" description="" target="112.2/-5.2/70.0" id="Point02" pan="-207.55" title="Move Here" url="{node3}"/>
+      <hotspot skinid="ht_image" tilt="-23.33" description="" target="" id="Point03" pan="-326.86" title="" url="images/TICADigitalSlideFile-0521 packrat.jpg"/>
+    </hotspots>
+    <media>
+      <video stretch="1.000" id="Element01" tilt="27.810" clickmode="2" mode="3" tiltsize="10.000" handcursor="0" startmutedmobile="0" pan="-225.460" field="90.000" nodechangekeep="0" ambientlevel="0.000" level="0.600" roty="4.000" pansize="10.000" rotz="-5.000" fov="24.000" loop="1" width="1280" rotx="0.000" height="720">
         <source url="media/4_BigRoom_Frost.mp4"/>
       </video>
     </media>
-    <transition blendtime="1" softedge="0" blendcolor="0x000000" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomin="0" type="crossdissolve" zoomspeed="2" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboard="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" rubberband="0"/>
+    <transition zoomafteroutfov="20" blendcolor="0x000000" enabled="1" softedge="0" zoomfov="20" zoomin="0" zoomafterinfov="90" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedwheel="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
   </panorama>
   <panorama id="node4">
-    <input overlap="1" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510" width="1440" height="1440">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" width="1440" levelbias="0.400" height="1440" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" width="1440" preload="0" height="1440"/>
+      <level predecode="0" width="720" preload="0" height="720"/>
+      <level predecode="1" width="360" preload="1" height="360"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="94.7082">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start tilt="0" fov="70" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata latitude="" heading="94.7082" author="" nodeid="node4" title="DCIM\100GOPRO\GS__0042.JPG" description="" comment="" longitude="" datetime="9/22/2021 11:36 AM" source="" customnodeid="" tags="Timpanogos Cave Panos" copyright="" info="">
-      <mapcoords mapid="FloorPlan01" y="-0.293198" x_floorplan_percent="55.2901" x="0.889893" y_floorplan_percent="69.0939"/>
+    <userdata description="" author="" info="" source="" latitude="" longitude="" title="DCIM\100GOPRO\GS__0042.JPG" heading="94.7082" copyright="" nodeid="node4" datetime="9/22/2021 11:36 AM" comment="" tags="Timpanogos Cave Panos" customnodeid="">
+      <mapcoords x_floorplan_percent="55.2901" mapid="FloorPlan01" x="0.889893" y="-0.293198" y_floorplan_percent="69.0939"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" background="1" wordwrap="1" enabled="1" textcolor="0x000000" borderradius="1" backgroundcolor="0xffffff" textalpha="1" borderalpha="1" backgroundalpha="1" width="180" height="20" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot pan="-135.69" url="{node1}" title="" description="" skinid="ht_node" tilt="-6.64" id="Point01" target="-66.2/-12.3/70.0"/>
-      <hotspot pan="-17.08" url="" title="The Big Room" description="A narrow passage opens up to “The Big Room” which is the largest room we will see on this tour. This room provides evidence of what we call hypogenic phreatic cave development. Hypogenic means that the acidic water is coming from below and phreatic meaning that the cave was submerged in water beneath the water table at the time." skinid="ht_info" tilt="5.97" id="Point02" target=""/>
-      <hotspot pan="-286.94" url="images/RayTrollImage2018PermissionGranted.jpg" title="" description="" skinid="ht_image" tilt="23.59" id="Point03" target=""/>
+      <label textalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" textcolor="0x000000" background="1" borderalpha="1" width="180" borderradius="1" height="20" backgroundcolor="0xffffff" border="1" bordercolor="0x000000"/>
+      <polystyle mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" tilt="-6.64" description="" target="-66.2/-12.3/70.0" id="Point01" pan="-135.69" title="" url="{node1}"/>
+      <hotspot skinid="ht_info" tilt="5.97" description="A narrow passage opens up to “The Big Room” which is the largest room we will see on this tour. This room provides evidence of what we call hypogenic phreatic cave development. Hypogenic means that the acidic water is coming from below and phreatic meaning that the cave was submerged in water beneath the water table at the time." target="" id="Point02" pan="-17.08" title="The Big Room" url=""/>
+      <hotspot skinid="ht_image" tilt="23.59" description="" target="" id="Point03" pan="-286.94" title="" url="images/RayTrollImage2018PermissionGranted.jpg"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" softedge="0" blendcolor="0x000000" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomin="0" type="crossdissolve" zoomspeed="2" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboard="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" rubberband="0"/>
+    <transition zoomafteroutfov="20" blendcolor="0x000000" enabled="1" softedge="0" zoomfov="20" zoomin="0" zoomafterinfov="90" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedwheel="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
   </panorama>
   <panorama id="node5">
-    <input overlap="1" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510" width="1440" height="1440">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" width="1440" levelbias="0.400" height="1440" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" width="1440" preload="0" height="1440"/>
+      <level predecode="0" width="720" preload="0" height="720"/>
+      <level predecode="1" width="360" preload="1" height="360"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start tilt="0" fov="70" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata latitude="" heading="0" author="" nodeid="node5" title="DCIM\100GOPRO\GS__0043.JPG" description="" comment="" longitude="" datetime="9/22/2021 11:41 AM" source="" customnodeid="" tags="Timpanogos Cave Panos" copyright="" info="">
-      <mapcoords mapid="FloorPlan01" y="-0.355682" x_floorplan_percent="43.558" x="0.701065" y_floorplan_percent="83.8188"/>
+    <userdata description="" author="" info="" source="" latitude="" longitude="" title="DCIM\100GOPRO\GS__0043.JPG" heading="0" copyright="" nodeid="node5" datetime="9/22/2021 11:41 AM" comment="" tags="Timpanogos Cave Panos" customnodeid="">
+      <mapcoords x_floorplan_percent="43.558" mapid="FloorPlan01" x="0.701065" y="-0.355682" y_floorplan_percent="83.8188"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" background="1" wordwrap="1" enabled="1" textcolor="0x000000" borderradius="1" backgroundcolor="0xffffff" textalpha="1" borderalpha="1" backgroundalpha="1" width="180" height="20" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot pan="-61.06" url="{node1}" title="Move Here" description="" skinid="ht_node" tilt="10.15" id="Point01" target="-52.3/-5.7/70.0"/>
-      <hotspot pan="-235.44" url="{node6}" title="Move Here" description="" skinid="ht_node" tilt="-8.61" id="Point02" target="7.9/-12.1/70.0"/>
-      <hotspot pan="-348.94" url="images/Shelfstone.jpg" title="" description="" skinid="ht_image" tilt="-37.94" id="Point03" target=""/>
+      <label textalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" textcolor="0x000000" background="1" borderalpha="1" width="180" borderradius="1" height="20" backgroundcolor="0xffffff" border="1" bordercolor="0x000000"/>
+      <polystyle mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" tilt="10.15" description="" target="-52.3/-5.7/70.0" id="Point01" pan="-61.06" title="Move Here" url="{node1}"/>
+      <hotspot skinid="ht_node" tilt="-8.61" description="" target="7.9/-12.1/70.0" id="Point02" pan="-235.44" title="Move Here" url="{node6}"/>
+      <hotspot skinid="ht_image" tilt="-37.94" description="" target="" id="Point03" pan="-348.94" title="" url="images/Shelfstone.jpg"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" softedge="0" blendcolor="0x000000" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomin="0" type="crossdissolve" zoomspeed="2" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboard="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" rubberband="0"/>
+    <transition zoomafteroutfov="20" blendcolor="0x000000" enabled="1" softedge="0" zoomfov="20" zoomin="0" zoomafterinfov="90" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedwheel="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
   </panorama>
   <panorama id="node6">
-    <input overlap="1" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510" width="1440" height="1440">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" width="1440" levelbias="0.400" height="1440" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" width="1440" preload="0" height="1440"/>
+      <level predecode="0" width="720" preload="0" height="720"/>
+      <level predecode="1" width="360" preload="1" height="360"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="68.1841">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start tilt="0" fov="70" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata latitude="" heading="68.1841" author="" nodeid="node6" title="DCIM\100GOPRO\GS__0044.JPG" description="" comment="" longitude="" datetime="9/22/2021 11:44 AM" source="" customnodeid="" tags="Timpanogos Cave Panos" copyright="" info="">
-      <mapcoords mapid="FloorPlan01" y="-0.344009" x_floorplan_percent="38.9078" x="0.626221" y_floorplan_percent="81.068"/>
+    <userdata description="" author="" info="" source="" latitude="" longitude="" title="DCIM\100GOPRO\GS__0044.JPG" heading="68.1841" copyright="" nodeid="node6" datetime="9/22/2021 11:44 AM" comment="" tags="Timpanogos Cave Panos" customnodeid="">
+      <mapcoords x_floorplan_percent="38.9078" mapid="FloorPlan01" x="0.626221" y="-0.344009" y_floorplan_percent="81.068"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" background="1" wordwrap="1" enabled="1" textcolor="0x000000" borderradius="1" backgroundcolor="0xffffff" textalpha="1" borderalpha="1" backgroundalpha="1" width="180" height="20" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot pan="-209.53" url="{node5}" title="" description="" skinid="ht_node" tilt="29" id="Point01" target="118.8/10.9/70.0"/>
-      <hotspot pan="-65.52" url="{node8}" title="" description="" skinid="ht_node" tilt="-20.25" id="Point02" target="158.7/-10.1/70.0"/>
-      <hotspot pan="357.81" url="images/greatheart.jpg" title="Heart of Timpanogos" description="" skinid="ht_image" tilt="-31.1" id="Heart Popup" target=""/>
-      <hotspot pan="-11.51" url="images/The Heart of Timpanogos - 01 - small.jpg" title="" description="" skinid="ht_image" tilt="-30.35" id="Point03" target=""/>
+      <label textalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" textcolor="0x000000" background="1" borderalpha="1" width="180" borderradius="1" height="20" backgroundcolor="0xffffff" border="1" bordercolor="0x000000"/>
+      <polystyle mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" tilt="29" description="" target="118.8/10.9/70.0" id="Point01" pan="-209.53" title="" url="{node5}"/>
+      <hotspot skinid="ht_node" tilt="-20.25" description="" target="158.7/-10.1/70.0" id="Point02" pan="-65.52" title="" url="{node8}"/>
+      <hotspot skinid="ht_image" tilt="-31.1" description="" target="" id="Heart Popup" pan="357.81" title="Heart of Timpanogos" url="images/greatheart.jpg"/>
+      <hotspot skinid="ht_image" tilt="-30.35" description="" target="" id="Point03" pan="-11.51" title="" url="images/The Heart of Timpanogos - 01 - small.jpg"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" softedge="0" blendcolor="0x000000" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomin="0" type="crossdissolve" zoomspeed="2" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboard="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" rubberband="0"/>
+    <transition zoomafteroutfov="20" blendcolor="0x000000" enabled="1" softedge="0" zoomfov="20" zoomin="0" zoomafterinfov="90" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedwheel="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
   </panorama>
   <panorama id="node7">
-    <input overlap="1" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510" width="1440" height="1440">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" width="1440" levelbias="0.400" height="1440" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" width="1440" preload="0" height="1440"/>
+      <level predecode="0" width="720" preload="0" height="720"/>
+      <level predecode="1" width="360" preload="1" height="360"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start tilt="0" fov="70" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata latitude="" heading="0" author="" nodeid="node7" title="DCIM\100GOPRO\GS__0045.JPG" description="" comment="" longitude="" datetime="9/22/2021 11:48 AM" source="" customnodeid="" tags="Timpanogos Cave Panos" copyright="" info="">
-      <mapcoords mapid="FloorPlan01" y="-0.326157" x_floorplan_percent="34.8976" x="0.561676" y_floorplan_percent="76.8608"/>
+    <userdata description="" author="" info="" source="" latitude="" longitude="" title="DCIM\100GOPRO\GS__0045.JPG" heading="0" copyright="" nodeid="node7" datetime="9/22/2021 11:48 AM" comment="" tags="Timpanogos Cave Panos" customnodeid="">
+      <mapcoords x_floorplan_percent="34.8976" mapid="FloorPlan01" x="0.561676" y="-0.326157" y_floorplan_percent="76.8608"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" background="1" wordwrap="1" enabled="1" textcolor="0x000000" borderradius="1" backgroundcolor="0xffffff" textalpha="1" borderalpha="1" backgroundalpha="1" width="180" height="20" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot pan="-256.17" url="{node8}" title="Move Here" description="" skinid="ht_node" tilt="19.26" id="Point01" target="-45.9/11.2/70.0"/>
-      <hotspot pan="-331.68" url="images/Timp_pop_stalagmite.jpg" title="Stalagmite" description="" skinid="ht_image" tilt="-29.76" id="Stalagmite" target=""/>
+      <label textalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" textcolor="0x000000" background="1" borderalpha="1" width="180" borderradius="1" height="20" backgroundcolor="0xffffff" border="1" bordercolor="0x000000"/>
+      <polystyle mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" tilt="19.26" description="" target="-45.9/11.2/70.0" id="Point01" pan="-256.17" title="Move Here" url="{node8}"/>
+      <hotspot skinid="ht_image" tilt="-29.76" description="" target="" id="Stalagmite" pan="-331.68" title="Stalagmite" url="images/Timp_pop_stalagmite.jpg"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" softedge="0" blendcolor="0x000000" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomin="0" type="crossdissolve" zoomspeed="2" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboard="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" rubberband="0"/>
+    <transition zoomafteroutfov="20" blendcolor="0x000000" enabled="1" softedge="0" zoomfov="20" zoomin="0" zoomafterinfov="90" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedwheel="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
   </panorama>
   <panorama id="node8">
-    <input overlap="1" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510" width="1440" height="1440">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" width="1440" levelbias="0.400" height="1440" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" width="1440" preload="0" height="1440"/>
+      <level predecode="0" width="720" preload="0" height="720"/>
+      <level predecode="1" width="360" preload="1" height="360"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="-72.2403">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start tilt="0" fov="70" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata latitude="" heading="-72.2403" author="" nodeid="node8" title="DCIM\100GOPRO\GS__0046.JPG" description="" comment="" longitude="" datetime="9/22/2021 11:54 AM" source="" customnodeid="" tags="Timpanogos Cave Panos" copyright="" info="">
-      <mapcoords mapid="FloorPlan01" y="-0.296631" x_floorplan_percent="33.2765" x="0.535583" y_floorplan_percent="69.9029"/>
+    <userdata description="" author="" info="" source="" latitude="" longitude="" title="DCIM\100GOPRO\GS__0046.JPG" heading="-72.2403" copyright="" nodeid="node8" datetime="9/22/2021 11:54 AM" comment="" tags="Timpanogos Cave Panos" customnodeid="">
+      <mapcoords x_floorplan_percent="33.2765" mapid="FloorPlan01" x="0.535583" y="-0.296631" y_floorplan_percent="69.9029"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" background="1" wordwrap="1" enabled="1" textcolor="0x000000" borderradius="1" backgroundcolor="0xffffff" textalpha="1" borderalpha="1" backgroundalpha="1" width="180" height="20" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot pan="-37.25" url="{node6}" title="Move Here" description="" skinid="ht_node" tilt="18.69" id="Point01" target="-56.2/-19.7/70.0"/>
-      <hotspot pan="-209.55" url="{node7}" title="" description="" skinid="ht_node" tilt="-13.81" id="Point02" target="-40.2/-36.1/70.0"/>
+      <label textalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" textcolor="0x000000" background="1" borderalpha="1" width="180" borderradius="1" height="20" backgroundcolor="0xffffff" border="1" bordercolor="0x000000"/>
+      <polystyle mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot skinid="ht_node" tilt="18.69" description="" target="-56.2/-19.7/70.0" id="Point01" pan="-37.25" title="Move Here" url="{node6}"/>
+      <hotspot skinid="ht_node" tilt="-13.81" description="" target="-40.2/-36.1/70.0" id="Point02" pan="-209.55" title="" url="{node7}"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" softedge="0" blendcolor="0x000000" enabled="1" zoomfov="20" zoomout="0" zoomoutpause="1" zoomin="0" type="crossdissolve" zoomspeed="2" zoomafterinfov="90" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboard="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" rubberband="0"/>
+    <transition zoomafteroutfov="20" blendcolor="0x000000" enabled="1" softedge="0" zoomfov="20" zoomin="0" zoomafterinfov="90" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedwheel="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
   </panorama>
   <masternode>
-    <userdata latitude="" heading="0" author="" nodeid="master" title="" description="" comment="" longitude="" datetime="" source="" customnodeid="" tags="" copyright="" info=""/>
+    <userdata description="" author="" info="" source="" latitude="" longitude="" title="" heading="0" copyright="" nodeid="master" datetime="" comment="" tags="" customnodeid=""/>
   </masternode>
-  <map tileformat="jpg" transparent="0" title="" floorplannorth="0" zoomlevels="1" id="FloorPlan01" type="file" width="2344" bgcolor="rgba(255, 255, 255, 1)" height="618"/>
+  <map zoomlevels="1" tileformat="jpg" id="FloorPlan01" bgcolor="rgba(255, 255, 255, 1)" floorplannorth="0" title="" transparent="0" width="2344" type="file" height="618"/>
 </tour>
